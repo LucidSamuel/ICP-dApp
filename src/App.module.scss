@@ -1,0 +1,29 @@
+.app {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #282c34;
+  padding: 24px;
+  background-color: #e5e5f7;
+  background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+  background-size: 10px 10px;
+}
+
+.cardcont {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  background: #f9f6f1d4;
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 12px;
+
+  padding: 20px;
+  margin: 12px 24px;
+}
+
+.code {
+  padding: 12px;
+  word-break: break-all;
+}
